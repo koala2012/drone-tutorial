@@ -17,8 +17,8 @@ services:
 
       # GitLab Config
       - DRONE_GITLAB=true
-      - DRONE_GITLAB_CLIENT=${CLIENT}
-      - DRONE_GITLAB_SECRET=${SECRET}
+      - DRONE_GITLAB_CLIENT=ac69d05250aba17d67b1c5ebb05dbbc24c4a83420e8865abd33ea7647ed0c078
+      - DRONE_GITLAB_SECRET=05fa6a44bfa381b128331dcfb8942c978e15d7f9db3eaee35b904fb251fbd2a3
       - DRONE_GITLAB_URL=https://gitlab.com
 
   drone-agent:
